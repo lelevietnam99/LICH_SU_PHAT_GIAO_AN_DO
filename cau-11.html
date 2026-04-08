@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ôn thi Lịch sử Phật giáo Ấn Độ - Câu 11</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Nunito:wght@400;600;700&display=swap');
+
+        :root {
+            --primary-color: #d97736;
+            --bg-color: #f4f6f8;
+            --text-color: #333;
+            --highlight: #d23f31;
+            --secondary-color: #2c3e50;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            font-size: 19px;
+        }
+
+        h1 {
+            text-align: justify;
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+            font-size: 1.6em;
+            line-height: 1.4;
+        }
+
+        .intro-text {
+            background-color: white;
+            padding: 15px 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+            text-align: justify;
+            border-left: 5px solid #4CAF50;
+        }
+
+        /* Style cho Accordion */
+        .accordion {
+            background-color: white;
+            cursor: pointer;
+            padding: 15px 20px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 1.15em;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            transition: 0.3s;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: var(--secondary-color);
+            margin-top: 5px;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .accordion:hover {
+            background-color: #f1f1f1;
+        }
+
+        .accordion:after {
+            content: '\002B';
+            color: var(--primary-color);
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+            font-size: 1.5em;
+        }
+
+        .active:after {
+            content: "\2212";
+        }
+
+        .panel {
+            padding: 0 20px;
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            border-left: 4px solid var(--primary-color);
+            border-radius: 0 0 5px 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            margin-bottom: 15px;
+        }
+
+        .panel-content {
+            padding: 15px 0;
+        }
+
+        .panel p {
+            margin: 10px 0;
+            text-align: justify;
+        }
+
+        .panel ul {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+
+        .panel li {
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .keyword {
+            font-weight: bold;
+            color: var(--highlight);
+        }
+
+        .term {
+            font-weight: bold;
+            color: var(--primary-color);
+            text-decoration: underline;
+            text-decoration-color: #ccc;
+            font-size: 1.05em;
+        }
+
+        .sub-title {
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-left: 3px solid var(--highlight);
+            padding-left: 10px;
+            background-color: #f9f6f0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        .summary-box {
+            background-color: #e8f4f8;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 5px solid #3498db;
+            margin-top: 30px;
+            text-align: justify;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .summary-box h3 {
+            color: #2980b9;
+            margin-top: 0;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        /* Nút quay lại */
+        .back-nav {
+            margin-top: 40px;
+            text-align: center;
+            border-top: 1px dashed #ccc;
+            padding-top: 25px;
+        }
+
+        .back-btn {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 10px 25px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s;
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .back-btn:hover {
+            background-color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CÂU 11: Trình bày thân thế và sự nghiệp của Tổ sư Long Thọ (Nagarjuna) và Tổ sư Thế Thân (Vasubandhu). Tại sao nói các Ngài là những cột trụ của thời đại vàng son Gupta?</h1>
+
+    <div class="intro-text">
+        <strong>💡 Hướng dẫn làm bài:</strong> Để làm rõ 2 vế của đề thi, bài làm cần được chia làm 3 phần rõ ràng: Trình bày tiểu sử, sự nghiệp của Tổ sư Long Thọ (I), Tổ sư Thế Thân (II) và phần đúc kết, bình luận về vai trò trụ cột của hai Ngài đối với triết học Đại thừa trong thời đại Gupta (III).
+    </div>
+
+    <button class="accordion">I. TỔ SƯ LONG THỌ (NAGARJUNA)</button>
+    <div class="panel">
+        <div class="panel-content">
+            <div class="sub-title">1. Thân thế</div>
+            <ul>
+                <li>Ngài sinh vào khoảng thế kỷ thứ 2 sau Tây lịch tại Nam Ấn Độ. Xuất thân trong một gia đình Bà-la-môn giàu có, Ngài rất thông minh, tuấn tú và am tường nhiều lĩnh vực như thiên văn, địa lý, triết học, toán số và cả giả kim thuật, huyền thuật.</li>
+                <li><span class="term">Về tên gọi Nagarjuna:</span> Chữ "Naga" mang nghĩa là loài rồng/rắn, "Arjuna" là tên vị anh hùng bắn cung bách phát bách trúng trong sử thi Ấn Độ. Tên gọi này ngụ ý <strong>tài năng thuyết pháp của Ngài vô cùng nhạy bén, nói thẳng vào trọng tâm chân lý như cung tên của Arjuna</strong>. Giảng sư cũng bác bỏ truyền thuyết sai lầm của Trung Hoa cho rằng Ngài được sinh ra dưới gốc cây có hoa hình con rồng.</li>
+                <li><span class="term">Cơ duyên xuất gia:</span> Thời thanh niên, Ngài cùng hai người bạn sử dụng huyền thuật để tàng hình vào cung vua đùa giỡn, dẫn đến cái chết của một cung nữ. Khi phép tàng hình suy giảm, lính gác phát hiện dấu chân và truy sát, hai người bạn bị bắt chém đầu. Riêng Long Thọ trốn thoát được xuống miền Nam Ấn Độ, từ đó tỉnh ngộ, xuất gia theo Phật giáo và tu học rất xuất chúng.</li>
+            </ul>
+
+            <div class="sub-title">2. Sự nghiệp và Triết lý</div>
+            <ul>
+                <li><span class="term">Tác phẩm để đời:</span> Tác phẩm vĩ đại nhất của Ngài là <span class="keyword">Trung Quán Luận</span> (Madhyamaka-shastra) và <span class="keyword">Đại Trí Độ Luận</span> (Mahaprajnaparamita-upadesha). Trong đó, Đại Trí Độ Luận được viết để giải thích Bát Thiên Tụng Bát Nhã, được giới học giả xem như bộ bách khoa toàn thư của Phật giáo.</li>
+                <li><span class="term">Triết lý Tánh Không:</span> Ngài dùng Trung Quán Luận để đánh đổ các học thuyết ngoại đạo và đập tan những quan điểm của Phật giáo bộ phái (nhất là Nhất Thiết Hữu Bộ). Ngài đã khôi phục lại nhân sinh quan đích thực của Đức Phật là <strong>"Ngã không, Pháp cũng không"</strong>. Tánh "Không" của Long Thọ không phải là hư vô trống rỗng, mà là <em>"Chân không diệu hữu"</em> – vạn pháp không có thực thể độc lập vì chúng luôn vô thường (thời gian) và do duyên sanh (không gian).</li>
+                <li><span class="term">Địa vị:</span> Ngài được tôn xưng là triết gia vĩ đại nhất của Ấn Độ, được người Ấn xem là hậu thân (hóa thân) của Đức Thích Ca Mâu Ni. Tại Trung Hoa, Ngài được suy tôn là vị Tổ của 8 trên 10 tông phái Phật giáo.</li>
+            </ul>
+        </div>
+    </div>
+
+    <button class="accordion">II. TỔ SƯ THẾ THÂN (VASUBANDHU)</button>
+    <div class="panel">
+        <div class="panel-content">
+            <div class="sub-title">1. Thân thế</div>
+            <ul>
+                <li>Ngài Thế Thân sống vào khoảng thế kỷ thứ 4 sau Tây lịch. Ngài là em trai của ngài Vô Trước (Asanga).</li>
+                <li>Lúc đầu, Ngài tu học theo Phật giáo bộ phái dưới sự hướng dẫn của ngài Như Ý (Manoratha). Sau đó, Ngài lặn lội đến trung tâm Kashmir để học Thắng pháp (Đại Tỳ Bà Sa Luận) với La-hán Ngộ Nhập. Do không phải người bản địa, Ngài được La-hán Ngộ Nhập khuyên nên nhanh chóng rời đi để tránh bị sát hại.</li>
+            </ul>
+
+            <div class="sub-title">2. Sự nghiệp và Triết lý</div>
+            <ul>
+                <li><span class="term">Viết Câu Xá Luận:</span> Trở về quê hương Peshawar, Ngài biên soạn bộ <span class="keyword">A-tỳ-đạt-ma Câu Xá Luận</span> (Abhidharmakosha). Lúc đầu, giới học giả Nhất Thiết Hữu Bộ tưởng bộ luận này đưa giáo nghĩa của họ lên đỉnh cao nên mang võng lọng đi rước về như rước vua. Nhưng khi đọc kỹ, họ mới phát hiện ngài Thế Thân đã dùng chính bộ luận này để phê phán sâu sắc những giáo nghĩa cốt lõi của Nhất Thiết Hữu Bộ.</li>
+                <li><span class="term">Chuyển sang Đại thừa:</span> Nhờ sự khuyến khích của anh trai là ngài Vô Trước, Ngài chuyển sang theo học Phật giáo Đại Thừa. Ngài theo học bộ <em>Du Già Sư Địa Luận</em> trực tiếp với luận sư <strong>Maitreyanatha</strong> (một nhân vật lịch sử có thật, thường bị nhầm lẫn với Bồ Tát Di Lặc).</li>
+                <li><span class="term">Địa vị:</span> Ngài cùng với Vô Trước trở thành hai vị Tổ sáng lập ra <span class="keyword">Duy Thức tông</span> (Yogacara). Thế Thân uyên bác đến mức được xưng tụng là <strong>"Thiên Bộ Luận Sư"</strong> vì đã sáng tác đến 500 bộ luận của Phật giáo bộ phái và 500 bộ luận của Phật giáo Đại thừa.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="summary-box">
+        <h3>III. TẠI SAO NÓI CÁC NGÀI LÀ NHỮNG CỘT TRỤ CỦA THỜI ĐẠI VÀNG SON GUPTA?</h3>
+        <p>Thời đại Gupta (bắt đầu từ thế kỷ 3-4 và kéo dài đến thế kỷ 7) được xem là <strong>thời kỳ hoàng kim (vàng son)</strong> của cả dân tộc Ấn Độ lẫn Phật giáo Ấn Độ. Các Tổ sư Long Thọ và Thế Thân được xem là những trụ cột kiến tạo nên sự rực rỡ này vì những lý do sau:</p>
+        <ul>
+            <li><span class="term">Kiến tạo đỉnh cao triết học Đại thừa:</span> Nếu Phật giáo Đại thừa có hai học hệ triết học vĩ đại nhất là Trung Quán và Duy Thức, thì Bồ Tát Long Thọ chính là người khai sáng <strong>Trung Quán tông</strong>, còn Bồ Tát Thế Thân là người hoàn thiện và hệ thống hóa <strong>Duy Thức tông</strong>. Dù Long Thọ sống trước thời Gupta (thế kỷ 2), nhưng nền tảng triết lý "Tánh Không" của Ngài là bước ngoặt tuyệt đối, làm bệ phóng vững chắc cho sự phát triển của Phật giáo Đại thừa trong suốt thời đại Gupta.</li>
+            <li><span class="term">Tạo ra "Rừng luận thư" đồ sộ:</span> Sự nghiệp trước tác khổng lồ của Thế Thân (hàng ngàn bộ luận) và các kiệt tác bách khoa như Đại Trí Độ Luận của Long Thọ đã góp phần biến thời đại Gupta thành một kỷ nguyên bùng nổ về học thuật, triết lý và văn học Phật giáo.</li>
+            <li><span class="term">Đào tạo thế hệ kế thừa kiệt xuất:</span> Nhờ nền tảng triết học vĩ đại do các Ngài xây dựng, thời kỳ Gupta đã sản sinh ra vô số các luận sư lỗi lạc tiếp nối hệ tư tưởng này (như Trần Na lập ra Logic học, Thánh Thiên, Tịch Thiên, Nguyệt Xứng, Pháp Xứng...). Sự tranh biện triết học đạt đến mức "thượng thừa", đưa vị thế của Phật giáo Ấn Độ lên tột đỉnh huy hoàng cả về tư tưởng, văn học lẫn giáo dục trước khi bước vào giai đoạn suy tàn.</li>
+        </ul>
+    </div>
+
+    <div class="back-nav">
+        <a href="index.html" class="back-btn">⬅ Quay lại Đề Cương LS Phật Giáo Ấn Độ</a>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                } 
+            });
+        }
+    </script>
+
+</body>
+</html>

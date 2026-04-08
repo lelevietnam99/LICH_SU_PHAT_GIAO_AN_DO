@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ôn thi Lịch sử Phật giáo Ấn Độ - Câu 10</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Nunito:wght@400;600;700&display=swap');
+
+        :root {
+            --primary-color: #d97736;
+            --bg-color: #f4f6f8;
+            --text-color: #333;
+            --highlight: #d23f31;
+            --secondary-color: #2c3e50;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            font-size: 19px;
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            line-height: 1.4;
+        }
+
+        .intro-text {
+            background-color: white;
+            padding: 15px 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+            text-align: justify;
+            border-left: 5px solid #4CAF50;
+        }
+
+        /* Style cho Accordion */
+        .accordion {
+            background-color: white;
+            cursor: pointer;
+            padding: 15px 20px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 1.1em;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            transition: 0.3s;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: var(--secondary-color);
+            margin-top: 5px;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .accordion:hover {
+            background-color: #f1f1f1;
+        }
+
+        .accordion:after {
+            content: '\002B';
+            color: var(--primary-color);
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+            font-size: 1.5em;
+        }
+
+        .active:after {
+            content: "\2212";
+        }
+
+        .panel {
+            padding: 0 20px;
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            border-left: 4px solid var(--primary-color);
+            border-radius: 0 0 5px 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            margin-bottom: 15px;
+        }
+
+        .panel-content {
+            padding: 15px 0;
+        }
+
+        .panel p {
+            margin: 10px 0;
+            text-align: justify;
+        }
+
+        .panel ul {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+
+        .panel li {
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .keyword {
+            font-weight: bold;
+            color: var(--highlight);
+        }
+
+        .term {
+            font-weight: bold;
+            color: var(--primary-color);
+            text-decoration: underline;
+            text-decoration-color: #ccc;
+        }
+        
+        .sub-title {
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-left: 3px solid var(--highlight);
+            padding-left: 10px;
+            background-color: #f9f6f0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        .quote {
+            background-color: #f9f6f0;
+            padding: 15px;
+            border-left: 4px solid var(--primary-color);
+            font-style: italic;
+            margin: 15px 0;
+            color: #555;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .summary-box {
+            background-color: #e8f4f8;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 5px solid #3498db;
+            margin-top: 30px;
+            text-align: justify;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .summary-box h3 {
+            color: #2980b9;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        /* Nút quay lại */
+        .back-nav {
+            margin-top: 40px;
+            text-align: center;
+            border-top: 1px dashed #ccc;
+            padding-top: 25px;
+        }
+
+        .back-btn {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 10px 25px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s;
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .back-btn:hover {
+            background-color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CÂU 10: Trình bày cuộc đời của Tiến sĩ B.R. Ambedkar và sự kiện quy y lịch sử tại Nagpur (1956). Nêu ý nghĩa của 22 lời thệ nguyện trong phong trào Phật giáo Tân Thừa (Navayana)</h1>
+
+    <div class="intro-text">
+        <strong>💡 Hướng dẫn làm bài:</strong> Bài luận cần bám sát 3 vế của đề bài: Cuộc đời vươn lên từ nghịch cảnh, Sự kiện quy y lịch sử chấn động, và Ý nghĩa cốt lõi của 22 lời thệ nguyện nhằm giải phóng con người.
+    </div>
+
+    <button class="accordion">I. CUỘC ĐỜI CỦA TIẾN SĨ B.R. AMBEDKAR (1891 - 1956)</button>
+    <div class="panel">
+        <div class="panel-content">
+            <ul>
+                <li><span class="term">Xuất thân và sự kỳ thị:</span> Tiến sĩ Bhimrao Ambedkar sinh năm 1891, là con út (người con thứ 14) trong một gia đình nghèo thuộc giai cấp hạ tiện (<span class="keyword">người Dalit</span>) tại Ấn Độ. Cha ông là Ramji Maloji Sakpal, từng phục vụ trong quân đội, và mẹ là Bhimabai. Ngay từ nhỏ, ông đã phải chịu đựng sự khinh miệt tột cùng của xã hội phân biệt giai cấp: đi học không được ngồi trong lớp mà phải ngồi ngoài hành lang, khát nước không được dùng chung ly mà phải đợi người gác cổng rót nước vào tay cho uống.</li>
+                <li><span class="term">Nỗ lực học vấn phi thường:</span> Vượt lên nghịch cảnh, ông là người giai cấp thấp đầu tiên thi đậu vào trường trung học của chính phủ (1906). Trong thời gian này, ông được thầy giáo tặng cuốn sách về cuộc đời Đức Phật, tạo nhân duyên lớn với đạo Phật. Ông tiếp tục lấy học bổng quốc gia để du học tại Đại học Columbia (Mỹ) và sau đó sang Anh. Bằng trí tuệ xuất chúng, ông lấy được 4 bằng tiến sĩ và trở thành một học giả uyên bác trên nhiều lĩnh vực: luật gia, nhà chính trị, nhà kinh tế, triết gia, sử gia và nhà nhân chủng học.</li>
+                <li><span class="term">Đấu tranh chính trị và xã hội:</span> Dù làm giáo sư tại Đại học Bombay, ông vẫn bị các giảng viên khác kỳ thị, không cho uống chung nguồn nước và xa lánh. Từ những bất công đó, ông dấn thân vào con đường chính trị để bảo vệ người yếu thế. Năm 1947, khi Ấn Độ độc lập, ông được bổ nhiệm làm Bộ trưởng Bộ Tư pháp đầu tiên và là <strong>Chủ tịch Hội đồng soạn thảo Hiến pháp Ấn Độ</strong>. Ông đã đưa vào Hiến pháp chương 15 quy định về sự bình đẳng, xóa bỏ sự phân biệt giai cấp bằng pháp luật.</li>
+            </ul>
+        </div>
+    </div>
+
+    <button class="accordion">II. SỰ KIỆN QUY Y LỊCH SỬ TẠI NAGPUR (1956)</button>
+    <div class="panel">
+        <div class="panel-content">
+            <p>Phẫn nộ trước sự bất bình đẳng của chế độ Bà-la-môn, Tiến sĩ Ambedkar từng tuyên bố câu nói nổi tiếng:</p>
+            <div class="quote">"Bất hạnh cho tôi khi sinh ra là một người Hindu, nhưng chắc chắn khi tôi chết, tôi không phải là người Hindu."</div>
+            <p>Sau thời gian dài nghiên cứu và được sự động viên của một sư thầy người Miến Điện, ông nhận thấy chỉ có giáo lý từ bi và bình đẳng của đạo Phật mới cứu vớt được thân phận của những người hạ cấp.</p>
+            <ul>
+                <li><span class="keyword">Ngày 14/10/1956:</span> Tại quảng trường lớn ở Nagpur, Tiến sĩ Ambedkar đã chính thức đứng trước Tam Bảo làm lễ quy y theo nghi thức Phật giáo. Ngay sau khi xướng đọc lời quy y cho bản thân, ông đã đứng ra tổ chức lễ quy y tập thể cho <span class="keyword">500.000 người</span> (nửa triệu người) dân thuộc giai cấp hạ tiện đi theo đạo Phật.</li>
+                <li><span class="term">Ý nghĩa sự kiện:</span> Sự kiện vĩ đại này đã đánh thức cả thế giới, hồi sinh lại Phật giáo tại Ấn Độ ở cấp độ quần chúng. Cũng từ đây, ông được tôn vinh là <strong>Sơ tổ của Phật giáo Nhập thế</strong> (Engaged Buddhism / Navayana - Tân Thừa), dấn thân vì quyền bình đẳng và đấu tranh xã hội.</li>
+            </ul>
+        </div>
+    </div>
+
+    <button class="accordion">III. Ý NGHĨA CỦA 22 LỜI THỆ NGUYỆN (PHONG TRÀO NAVAYANA)</button>
+    <div class="panel">
+        <div class="panel-content">
+            <p>Để giúp nửa triệu tín đồ mới dứt bỏ dứt khoát với tín ngưỡng cũ và có nền tảng tu học vững chắc, Tiến sĩ Ambedkar đã đích thân soạn thảo ra 22 lời phát nguyện. 22 lời thề này mang hai tầng ý nghĩa cốt lõi:</p>
+            
+            <div class="sub-title">1. Đoạn tuyệt triệt để với Bà-la-môn giáo (Hindu giáo):</div>
+            <ul>
+                <li>Tuyên bố không tin và không thờ cúng các vị thần như Phạm Thiên, Vishnu, Shiva, Gauri, Ganapati, Rama, Krishna...</li>
+                <li>Ông đập tan luận điệu đồng hóa của Bà-la-môn khi thề: <em>"Tôi không tin Đức Phật là hóa thân của thần Vishnu. Tôi tin rằng điều này là sự khùng điên và truyền bá tầm bậy"</em>.</li>
+                <li>Tuyên bố từ bỏ đạo Hindu vì đây là tôn giáo chà đạp nhân bản, dựa trên sự bất bình đẳng và kìm hãm sự tiến triển của nhân loại. Ông coi việc quy y Phật giáo là <strong>"được sinh ra lần nữa"</strong>.</li>
+            </ul>
+
+            <div class="sub-title">2. Xây dựng lối sống đạo đức Phật giáo bình đẳng và nhập thế:</div>
+            <ul>
+                <li>Nguyện tin tưởng tuyệt đối vào giáo pháp của Đức Phật và xác lập niềm tin vào sự bình đẳng của mọi con người.</li>
+                <li>Nguyện sống và thực hành theo Bát Chánh Đạo, 10 Ba-la-mật.</li>
+                <li>Nuôi dưỡng lòng từ bi với mọi chúng sanh mỗi ngày và tuân thủ các giới luật căn bản: không ăn cắp, không nói láo, không tà dâm, không sử dụng các chất gây say sưa.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="summary-box">
+        <h3>📌 Kết Luận</h3>
+        <p>Nhờ 22 lời thề này, Tiến sĩ Ambedkar không chỉ hồi sinh một tôn giáo vĩ đại ngay trên chính quê hương của nó sau hàng thế kỷ lụi tàn, mà còn trực tiếp giải phóng hàng triệu con người khốn khổ khỏi gông cùm của chế độ giai cấp khắc nghiệt nhất lịch sử nhân loại.</p>
+    </div>
+
+    <div class="back-nav">
+        <a href="index.html" class="back-btn">⬅ Quay lại Đề Cương LS Phật Giáo Ấn Độ</a>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                } 
+            });
+        }
+    </script>
+
+</body>
+</html>

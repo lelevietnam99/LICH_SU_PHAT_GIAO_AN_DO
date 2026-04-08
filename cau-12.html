@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ôn thi Lịch sử Phật giáo Ấn Độ - Câu 12</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Nunito:wght@400;600;700&display=swap');
+
+        :root {
+            --primary-color: #d97736;
+            --bg-color: #f4f6f8;
+            --text-color: #333;
+            --highlight: #d23f31;
+            --secondary-color: #2c3e50;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            font-size: 19px;
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+            font-size: 1.55em;
+            line-height: 1.4;
+        }
+
+        .intro-text {
+            background-color: white;
+            padding: 15px 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+            text-align: justify;
+            border-left: 5px solid #4CAF50;
+        }
+
+        /* Style cho Accordion */
+        .accordion {
+            background-color: white;
+            cursor: pointer;
+            padding: 15px 20px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 1.15em;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            transition: 0.3s;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: var(--secondary-color);
+            margin-top: 5px;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .accordion:hover {
+            background-color: #f1f1f1;
+        }
+
+        .accordion:after {
+            content: '\002B';
+            color: var(--primary-color);
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+            font-size: 1.5em;
+        }
+
+        .active:after {
+            content: "\2212";
+        }
+
+        .panel {
+            padding: 0 20px;
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            border-left: 4px solid var(--primary-color);
+            border-radius: 0 0 5px 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            margin-bottom: 15px;
+        }
+
+        .panel-content {
+            padding: 15px 0;
+        }
+
+        .panel p {
+            margin: 10px 0;
+            text-align: justify;
+        }
+
+        .panel ul {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+
+        .panel li {
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .keyword {
+            font-weight: bold;
+            color: var(--highlight);
+        }
+
+        .term {
+            font-weight: bold;
+            color: var(--primary-color);
+            text-decoration: underline;
+            text-decoration-color: #ccc;
+            font-size: 1.05em;
+        }
+
+        .sub-title {
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-left: 3px solid var(--highlight);
+            padding-left: 10px;
+            background-color: #f9f6f0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        .summary-box {
+            background-color: #e8f4f8;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 5px solid #3498db;
+            margin-top: 30px;
+            text-align: justify;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .summary-box h3 {
+            color: #2980b9;
+            margin-top: 0;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        /* Nút quay lại */
+        .back-nav {
+            margin-top: 40px;
+            text-align: center;
+            border-top: 1px dashed #ccc;
+            padding-top: 25px;
+        }
+
+        .back-btn {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 10px 25px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s;
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .back-btn:hover {
+            background-color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CÂU 12: Phân tích hành trình phục hưng Phật giáo của cư sĩ Anagarika Dharmapala. Những phương thức hoạt động nào của ông đã thành công và những hạn chế nào ông chưa đạt được?</h1>
+
+    <div class="intro-text">
+        <strong>💡 Hướng dẫn làm bài:</strong> Để đạt điểm tối đa, bạn cần bám sát cấu trúc: Đặt vấn đề (Bối cảnh) ➔ Phân tích các phương thức thành công (4 ý) ➔ Chỉ ra hạn chế (3 ý) ➔ Bình luận & Kết luận về tầm vóc của ông.
+    </div>
+
+    <button class="accordion">I. ĐẶT VẤN ĐỀ: BỐI CẢNH VÀ SỰ THỨC TỈNH</button>
+    <div class="panel">
+        <div class="panel-content">
+            <ul>
+                <li>Vào thế kỷ 19, dưới ách thống trị của thực dân Tây phương và sự bành trướng của Thiên Chúa giáo, văn hóa và tôn giáo bản địa tại các nước châu Á bị chà đạp nặng nề. Tại quốc đảo Sri Lanka (thuộc địa của Anh), người dân bị ép buộc phải xấu hổ về màu da và tôn giáo của tổ tiên mình.</li>
+                <li>Trong bối cảnh đó, <strong>Anagarika Dharmapala</strong> (tên thật là Don David Hewavitarne, sinh năm 1864 trong một gia đình thương gia giàu có) đã vươn lên trở thành ngọn đuốc tiên phong. Dù bị nhà trường Thiên Chúa giáo đánh đập vì dự lễ Vesak và bị đuổi học năm 15 tuổi vì đọc sách Phật giáo, ông vẫn nuôi dưỡng một lý tưởng to lớn.</li>
+                <li>Được truyền cảm hứng từ cuộc tranh luận thắng lợi của Trưởng lão Gunananda và sự kiện đại tá Mỹ Henry Olcott quy y Phật giáo, <strong>năm 1884, ông từ bỏ gia đình, đổi tên thành Anagarika Dharmapala</strong> (Người sống không gia đình) để dâng hiến trọn đời cho công cuộc chấn hưng Phật giáo.</li>
+            </ul>
+        </div>
+    </div>
+
+    <button class="accordion">II. NHỮNG PHƯƠNG THỨC HOẠT ĐỘNG THÀNH CÔNG</button>
+    <div class="panel">
+        <div class="panel-content">
+            <p>Hành trình phục hưng Phật giáo của ông đạt được những thành tựu vĩ đại nhờ áp dụng 4 phương thức hoạt động mang tầm vóc quốc tế:</p>
+
+            <div class="sub-title">1. Khảo sát thực tế và dấn thân đấu tranh bảo vệ thánh tích</div>
+            <p>Năm 1885, ông sang Ấn Độ chiêm bái <strong>Bồ Đề Đạo Tràng (Bodh Gaya)</strong> và đau xót chứng kiến thánh tích bị hoang tàn, rơi vào tay sự kiểm soát của đại địa chủ Ấn giáo Mahant (kẻ xem Phật chỉ là hóa thân thứ tám của thần Vishnu). Ngay dưới cội Bồ Đề, ông phát nguyện và bắt đầu cuộc đấu tranh kiên cường, đổ máu ròng rã hàng chục năm để giành lại quyền làm chủ thánh tích.</p>
+
+            <div class="sub-title">2. Thành lập tổ chức và sử dụng truyền thông báo chí</div>
+            <ul>
+                <li><span class="keyword">Về tổ chức:</span> Năm 1891, ông thành lập <strong>Hội Đại Bồ Đề (Maha Bodhi Society)</strong>. Đây là tổ chức Phật giáo có sức sống bền bỉ nhất thế giới, vẫn còn hoạt động cho đến tận ngày nay.</li>
+                <li><span class="keyword">Về truyền thông:</span> Ông sáng lập tạp chí <em>Journal of the Maha Bodhi Society</em>. Đây là công cụ ngôn luận sắc bén giúp truyền tải thông điệp phục hưng đi khắp nơi, và cũng là tạp chí Phật giáo sống dai nhất thế giới.</li>
+            </ul>
+
+            <div class="sub-title">3. Ngoại giao quốc tế và tài hùng biện</div>
+            <p>Năm 1893, Dharmapala đại diện cho Phật giáo Nam truyền tham dự <strong>Hội nghị Tôn giáo Thế giới tại Chicago (Mỹ)</strong>. Bằng tài hùng biện xuất chúng, bài tham luận <em>"Thế giới chịu ơn của Phật giáo"</em> của ông đã làm chấn động đại hội, giới thiệu thành công triết lý Phật giáo đến phương Tây.</p>
+
+            <div class="sub-title">4. Kêu gọi tài trợ và kiến thiết cơ sở hạ tầng</div>
+            <p>Ông tình cờ gặp và chinh phục được nữ quý tộc giàu có <strong>bà Mary Foster</strong>. Cảm mến trí tuệ của ông, bà đã quy y Phật giáo và trở thành nguồn tài trợ khổng lồ. Nhờ đó, ông đã xây dựng được một ngôi chùa đá tuyệt đẹp tại Lộc Uyển (Sarnath) và thuê họa sĩ Nhật Bản sang vẽ bộ bích họa vĩ đại về cuộc đời Đức Phật.</p>
+        </div>
+    </div>
+
+    <button class="accordion">III. NHỮNG HẠN CHẾ VÀ ĐIỀU CHƯA ĐẠT ĐƯỢC</button>
+    <div class="panel">
+        <div class="panel-content">
+            <p>Mặc dù cống hiến cả đời, hành trình của ông vẫn có những hạn chế nhất định:</p>
+            <ul>
+                <li><span class="term">1. Chưa tận mắt chứng kiến Bồ Đề Đạo Tràng được trao trả trọn vẹn:</span> Dù đấu tranh bằng cả máu và nước mắt, ông qua đời năm 1933 mà chưa đòi lại được thánh tích. Mãi đến năm 1947 mới được chính thức công nhận. Thậm chí khi trao trả, Phật giáo cũng không được toàn quyền quản lý mà phải thông qua một Ủy ban hỗn hợp (4 người Phật giáo, 4 người Bà-la-môn) do quận trưởng Gaya làm chủ tịch.</li>
+                <li><span class="term">2. Hạn chế về sự hưởng ứng quốc tế giai đoạn đầu:</span> Năm 1891, khi ông tổ chức hội nghị kêu gọi các nước chung tay phục hưng Phật giáo, lực lượng hưởng ứng ban đầu rất mỏng manh, chỉ có đại diện của 4 quốc gia tham dự (Ấn Độ, Miến Điện, Trung Quốc và Bangladesh).</li>
+                <li><span class="term">3. Hạn chế cá nhân về quả vị xuất gia:</span> Ông dành gần trọn cuộc đời với tư cách là một cư sĩ để dễ dàng hoạt động xã hội. Mãi đến cuối đời (khoảng 1930) khi bà Foster mất và bản thân đã già yếu, ông mới chính thức xuất gia thọ giới Sa-di, và chưa kịp thọ giới Tỳ-kheo thì đã viên tịch vào năm 1933.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="summary-box">
+        <h3>IV. BÌNH LUẬN VÀ KẾT LUẬN</h3>
+        <p>Dù không trực tiếp gặt hái trọn vẹn mọi thành quả lúc sinh thời, nhưng những cống hiến của Anagarika Dharmapala là <strong>vô tiền khoáng hậu</strong>. Ông là người đã đánh thức niềm tự hào dân tộc và tôn giáo, biến Phật giáo từ một di sản đang bị chôn vùi tại Ấn Độ trở thành một phong trào mang tính toàn cầu.</p>
+        <p>Thành công lớn nhất của ông không chỉ nằm ở những ngôi chùa được xây hay tờ báo được lập, mà chính là <strong>tạo ra nguồn cảm hứng mãnh liệt để ngọn đuốc phục hưng Phật giáo bùng cháy lan rộng ra khắp châu Á</strong> (tiêu biểu như Thái Hư Đại Sư tại Trung Quốc, hay phong trào chấn hưng Phật giáo tại Việt Nam thế kỷ 20). Ông hoàn toàn xứng đáng được tôn vinh là vị tiên phong vĩ đại nhất trong lịch sử phục hưng Phật giáo thế giới hiện đại.</p>
+    </div>
+
+    <div class="back-nav">
+        <a href="index.html" class="back-btn">⬅ Quay lại Đề Cương LS Phật Giáo Ấn Độ</a>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                } 
+            });
+        }
+    </script>
+
+</body>
+</html>
